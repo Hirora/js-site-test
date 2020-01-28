@@ -29,3 +29,30 @@ body {
   font-family: 'Overpass Mono', monospace;
   text-align: center;
 }
+
+.element {
+  font-size: 16px;
+  text-align: centre;
+  font-weight: bold;
+
+  width: 25%;
+  max-width: 25%;
+
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+
+  color: #0a0a0a;
+}
+
+.deselected {
+  /*background-color: #c9c79f;*/
+  background-color: #0a0a0a;
+  color: #9fb8c9;
+}
+
+.selected {
+  background-color: #9fb8c9;
+}
